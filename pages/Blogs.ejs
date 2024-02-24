@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head.ejs') %>
+
+  <body>
+    <%- include('../partials/nav.ejs') %>
+
+
+    <div class="formContainer">
+        <form action="/blogs" method="post">
+            <label for="title">Title</label> <br>
+            <input type="text" id="title" name="title"> <br>
+            <label for="desc">Description</label> <br>
+            <textarea id="description" cols="60" rows="10" name="description"></textarea> <br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+      <!-- <h1>Blog 1</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+        suscipit velit ratione at totam, fuga veritatis quos, praesentium
+        repellat quod nulla aliquam libero harum ab quas repudiandae dolorum
+        veniam minus?
+      </p>
+      <hr>
+      <h1>Blog 2</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+        suscipit velit ratione at totam, fuga veritatis quos, praesentium
+        repellat quod nulla aliquam libero harum ab quas repudiandae dolorum
+        veniam minus?
+      </p>
+      <hr>
+      <h1>Blog 3</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+        suscipit velit ratione at totam, fuga veritatis quos, praesentium
+        repellat quod nulla aliquam libero harum ab quas repudiandae dolorum
+        veniam minus?
+      </p> -->
+
+    <%- include('../partials/footer.ejs') %>
+
+  </body>
+</html>
